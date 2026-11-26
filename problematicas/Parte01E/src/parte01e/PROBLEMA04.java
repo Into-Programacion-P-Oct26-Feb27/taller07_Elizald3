@@ -12,9 +12,9 @@ public class PROBLEMA04 {
      public static void main(String[] args) { 
           int contador = 1;
         int denominador = 1;
-        int signo = 1;              // 1 = positivo, -1 = negativo
+        int signo = 1;              
         double suma = 0;
-        String serie = "";          // cadena de acumulación
+        String serie = "";          
 
         while (contador <= 8) {
             suma = suma + signo * (1.0 / denominador);
